@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>United States Capitals</title>
+		<link type="text/css" rel="stylesheet" href="styles/style.css"></link>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Learn the State Capitals!</h1>
+		</header>
+	
+		<div class="flashcard" onMouseOver="show ('div1')" onMouseOut="hide('div1')">
+			<h1>Alabama</h1>
+			<img src="images/alabama.jpg" alt="Alabama">
+			<div id="div1">
+			<h2>Montgomery</h2>
+			</div>
+		</div>
+		
+		<div class="flashcard" onMouseOver="show ('div2')" onMouseOut="hide('div2')">
+			<h1>Alaska</h1>
+			<img src="images/alaska.jpg" alt="Alaska">
+			<div id="div2">
+			<h2>Juneau</h2>
+			</div>
+		</div>
+		
+		<div class="flashcard" onMouseOver="show ('div3')" onMouseOut="hide('div3')">
+			<h1>Arizona</h1>
+			<img src="images/arizona.jpg" alt="Arizona">
+			<div id="div3">
+			<h2>Phoenix</h2>
+			</div>
+		</div>
+		
+		<div class="flashcard" onMouseOver="show ('div4')" onMouseOut="hide('div4')">
+			<h1>Arkansas</h1>
+			<img src="images/arkansas.jpg" alt="Arkansas">
+			<div id="div4">
+			<h2>Little Rock</h2>
+			</div>
+		</div>
+		
+		<div class="flashcard" onMouseOver="show ('div5')" onMouseOut="hide('div5')">
+			<h1>California</h1>
+			<img src="images/california.jpg" alt="California">
+			<div id="div5">
+			<h2>Sacramento</h2>
+			</div>
+		</div>
+		
+		<div class="flashcard" onMouseOver="show ('div6')" onMouseOut="hide('div6')">
+			<h1>Colorado</h1>
+			<img src="images/colorado.jpg" alt="Colorado">
+			<div id="div6">
+			<h2>Denver</h2>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			function show(id) {
+			document.getElementById(id).style.visibility = "visible";
+			}
+			function hide(id) {
+			document.getElementById(id).style.visibility = "hidden";
+			}
+		</script>
+	</body>
+</html>
